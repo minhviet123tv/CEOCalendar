@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.apachat.swipereveallayout.core.SwipeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:mode="same_level"
+    app:dragEdge="right"
+    android:id="@+id/layout_all_event_item">
+
+    <!--  Layout swipe (hay dùng LinearLayout để chia đều các đối tượng) -->
+    <LinearLayout
+        android:id="@+id/layout_swipe_event_all_item"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        tools:ignore="RtlSymmetry,VisualLintBounds">
+
+        <RelativeLayout
+            android:id="@+id/layout_swipe_checked_event"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/bg_swipe_finish_event"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/image_swipe_checked_event"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_check_event_1_disable"
+                android:layout_gravity="center"
+                android:contentDescription="@string/contentDescription" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_swipe_checked_disable_event"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/bg_swipe_finish_event"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/image_swipe_checked_disable_event"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_check_event_1_check_1"
+                android:layout_gravity="center"
+                android:contentDescription="@string/contentDescription" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_swipe_edit_event"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_swipe_edit_event"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/image_swipe_edit_event"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/contentDescription"
+                android:src="@drawable/ic_edit_text" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_swipe_like_event"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/bg_swipe_like_event"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/image_swipe_like_event"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_check_event_2_like_disable"
+                android:contentDescription="@string/contentDescription" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_swipe_like_disable_event"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/bg_swipe_like_event"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/image_swipe_like_disable_event"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_check_event_2_like"
+                android:contentDescription="@string/contentDescription" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_swipe_heart_event"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/bg_swipe_heart_event"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/image_swipe_heart_event"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_check_event_3_heart_disable"
+                android:contentDescription="@string/contentDescription" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_swipe_heart_disable_event"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/bg_swipe_heart_event"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/image_swipe_heart_disable_event"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_check_event_3_heart"
+                android:contentDescription="@string/contentDescription" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_swipe_star_event"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/bg_swipe_star_event"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/image_swipe_star_event"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_check_event_4_star_disable"
+                android:contentDescription="@string/contentDescription" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_swipe_star_disable_event"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/bg_swipe_star_event"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/image_swipe_star_disable_event"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_check_event_4_star"
+                android:contentDescription="@string/contentDescription" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_swipe_delete_event"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/bg_swipe_delete_event"
+            android:padding="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp">
+            <ImageView
+                android:id="@+id/image_swipe_delete_event"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_delete_1"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/contentDescription" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!--  Layout item   -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_all_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="48dp"
+            android:orientation="horizontal"
+            tools:ignore="TextSizeCheck">
+
+            <LinearLayout
+                android:id="@+id/layout_textView_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView_event_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="3dp"
+                    android:layout_weight="1"
+                    android:paddingStart="@dimen/primary_padding_activity"
+                    android:text="@string/text_event"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/text_event"
+                    tools:ignore="NestedWeights,RtlSymmetry" />
+
+                <ImageView
+                    android:id="@+id/image_event_checked"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:padding="3dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="1dp"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/contentDescription"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_check_event_1_check_1"
+                    android:visibility="visible"
+                    tools:ignore="ImageContrastCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_editText_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/gray_3"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/image_clear_editText"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/contentDescription"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_cancel_1" />
+
+                <EditText
+                    android:id="@+id/editText_event_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:autofillHints="@string/contentDescription"
+                    android:background="@drawable/bg_edt_event_name_white"
+                    android:inputType="textCapSentences"
+                    android:minHeight="42dp"
+                    android:paddingStart="7dp"
+                    android:paddingEnd="5dp"
+                    android:scrollHorizontally="true"
+                    android:text="@string/edit_text_event"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_event"
+                    tools:ignore="LabelFor,NestedWeights,TextFields,TouchTargetSizeCheck" />
+
+                <ImageView
+                    android:id="@+id/image_check_event_name"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="1dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/contentDescription"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_check_edit_text_2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_time_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView_time_of_event"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/primary_padding_activity"
+                    android:text="@string/time"
+                    android:textColor="@color/primary_text"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="@dimen/text_time_on_rcv"
+                    tools:ignore="RtlSymmetry" />
+
+                <ImageView
+                    android:id="@+id/image_clock_rcv_event"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="@dimen/primary_padding_activity"
+                    android:src="@drawable/clock_2"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_date_and_time_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:orientation="vertical"
+            android:gravity="end"
+            android:layout_gravity="end">
+
+            <TextView
+                android:id="@+id/textView_date_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/primary_padding_activity"
+                android:layout_marginEnd="@dimen/primary_padding_activity"
+                android:text="@string/time"
+                android:textColor="@color/primary_text"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text_date_on_rcv"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</com.apachat.swipereveallayout.core.SwipeLayout>

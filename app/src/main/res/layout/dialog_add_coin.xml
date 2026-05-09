@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/bg_wall_1"
+    android:layout_margin="16dp"
+    android:padding="10dp"
+    android:elevation="5dp">
+
+    <RelativeLayout
+        android:id="@+id/layout_title_add_coin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/img_cancel_add_coin">
+
+            <TextView
+                android:id="@+id/textView_title_add_coin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:layout_centerHorizontal="true"
+                android:text="@string/watch_an_ad"
+                android:textColor="@color/primary_text"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/title_list_all_event"
+                tools:ignore="RelativeOverlap" />
+
+            <ImageView
+                android:id="@+id/img_coin"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="2dp"
+                android:src="@drawable/coin_dollar_border_62"
+                android:scaleType="centerCrop"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/textView_title_add_coin"
+                android:contentDescription="@string/contentDescription" />
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/img_cancel_add_coin"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_cancel_2"
+            android:scaleType="centerCrop"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/contentDescription" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_play_ad"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/layout_title_add_coin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:padding="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/play_video_2"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/contentDescription" />
+
+    <TextView
+        android:id="@+id/txt_ad_not_load_notify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_play_ad"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:textStyle="italic"
+        android:text="@string/ad_not_ready"
+        android:visibility="gone"/>
+
+</RelativeLayout>

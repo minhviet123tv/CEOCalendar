@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.apachat.swipereveallayout.core.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="8dp"
+    app:mode="same_level"
+    app:dragEdge="right"
+    android:id="@+id/layout_item_folder"
+    tools:ignore="RtlSymmetry">
+
+    <!--  Layout swipe (hay dùng LinearLayout để chia đều các đối tượng) -->
+    <LinearLayout
+        android:id="@+id/layout_swipe_item_folder"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        tools:ignore="RtlSymmetry,VisualLintBounds">
+
+        <RelativeLayout
+            android:id="@+id/layout_swipe_edit_folder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_swipe_edit_event"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="10dp"
+            android:layout_marginEnd="3dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/image_swipe_edit_folder"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/contentDescription"
+                android:src="@drawable/ic_edit_text" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_swipe_delete_folder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/bg_swipe_delete_event"
+            android:padding="10dp"
+            android:layout_marginEnd="3dp">
+            <ImageView
+                android:id="@+id/image_swipe_delete_folder"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_delete_1"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/contentDescription" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+<!--  Layout item   -->
+    <RelativeLayout
+        android:id="@+id/layout_folder_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp">
+
+        <ImageView
+            android:id="@+id/img_ic_folder"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_folder_1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/contentDescription"/>
+
+        <TextView
+            android:id="@+id/txt_folder_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="35dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="4dp"
+            android:text="@string/create_new_folder"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_folder_name"
+            android:layout_toEndOf="@+id/img_ic_folder"
+            android:layout_toStartOf="@+id/txt_folder_name_datetime"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/txt_folder_name_datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/time_folder"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/txt_folder_name_datetime"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</com.apachat.swipereveallayout.core.SwipeLayout>

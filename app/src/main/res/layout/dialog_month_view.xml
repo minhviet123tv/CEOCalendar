@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_month_view"
+    android:layout_margin="16dp"
+    android:padding="10dp"
+    android:elevation="5dp">
+
+    <RelativeLayout
+        android:id="@+id/layout_menu_select_date_month_view_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageButton
+            android:id="@+id/ibtn_return_to_day_month_dialog"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/contentDescription"
+            android:scaleType="centerInside"
+            android:src="@drawable/to_day_2"
+            android:padding="3dp"
+            android:visibility="visible"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/btn_previous_month_view_dialog"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="3dp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/txt_date_title_month_view_dialog"
+            android:layout_marginEnd="10dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:src="@drawable/back_1"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            android:contentDescription="@string/contentDescription" />
+
+        <TextView
+            android:id="@+id/txt_date_title_month_view_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_show"
+            android:textSize="@dimen/text_selected_date"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:background="?android:attr/selectableItemBackgroundBorderless"/>
+
+        <ImageButton
+            android:id="@+id/btn_forward_month_view_dialog"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="3dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/txt_date_title_month_view_dialog"
+            android:layout_marginStart="10dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:src="@drawable/next_1"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/btn_add_event_month_dialog"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:src="@drawable/add_event_1"
+            android:contentDescription="@string/contentDescription"
+            tools:ignore="TextContrastCheck,TouchTargetSizeCheck,ImageContrastCheck" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_list_day_name_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_menu_select_date_month_view_dialog"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_dialog_month_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rcv_list_day_name_dialog"
+        android:layout_centerInParent="true"
+        android:gravity="center" />
+
+    <RelativeLayout
+        android:id="@+id/layout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rcv_dialog_month_view"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/button_cancel_month_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/button_ok_month_view"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/gray"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button_ok_month_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/btn_ok"
+            android:textAllCaps="false"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

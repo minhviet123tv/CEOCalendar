@@ -1,0 +1,289 @@
+<resources>
+    <string name="app_name">CEO Calendar</string>
+
+    <!--  Menu  -->
+    <string name="calendar">Calendar</string>
+    <string name="notes">Notes</string>
+    <string name="view_folder">View Folder</string>
+    <string name="all_event">All Event</string>
+    <string name="all_notes">All Notes</string>
+    <string name="menu">Menu</string>
+
+    <!--  day of week  -->
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thur">Thur</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+
+    <!--  Event  -->
+    <string name="new_event">New Event</string>
+    <string name="new_event_plus">Click + to add new event</string>
+    <string name="save">Save</string>
+    <string name="date_show">09/10/2023</string>
+    <string name="text_event">text of event</string>
+    <string name="edit_text_event">edit text of event</string>
+    <string name="time_of_event">--:--</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear_all">Clear All</string>
+    <string name="txt_no">No</string>
+    <string name="button">button</string>
+    <string name="delete_all_image_event">Clear All Image?</string>
+    <string name="app_needs_connect">App needs connect to your Storage!</string>
+    <string name="title_view_image">View Images</string>
+
+    <!--  Add event  -->
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="contentDescription">TODO</string>
+    <string name="please_type_text">Please type text!</string>
+    <string name="copied">Copied!</string>
+    <string name="copied_content">Copied content!</string>
+
+    <!--  Update Event  -->
+    <string name="update_event">Event</string>
+    <string name="text_update">Update</string>
+    <string name="text_here">Event</string>
+    <string name="text_time_ic">Time:</string>
+    <string name="note_add_event">Notes</string>
+    <string name="update_success">Success!</string>
+    <string name="btn_ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="notification_event_name_empty">Event name is empty!</string>
+    <string name="download_folder_name">/Pictures</string>
+
+    <!--  Menu Fragment  -->
+    <string name="menu_name">CEO Calendar</string>
+    <string name="menu_meditation">Falundafa.org</string>
+    <string name="list_all_event">All Event</string>
+    <string name="list_all_notes">All Notes</string>
+    <string name="ratting_app">Update &amp; \nRatting App</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="how_human_kind_came_to_be">Why there is mankind?</string>
+    <string name="select_language_title">Select language</string>
+    <string name="list_all_note">All Notes</string>
+
+    <!--  Menu Fragment: Calendar View  -->
+    <string name="calendar_setting">Calendar Setting</string>
+    <string name="calendar_setting_title">Setting</string>
+    <string name="calendar_style">Calendar Style</string>
+    <string name="calendar_view_style">Calendar View</string>
+    <string name="first_day_of_week">First day of week</string>
+    <string name="date_format">Date format</string>
+
+    <string name="layout_bottom">Bottom</string>
+    <string name="layout_top">Top</string>
+    <string name="one_week">1 Week</string>
+    <string name="three_week">3 Week</string>
+    <string name="one_month_view">1 Month</string>
+    <string name="first_week_monday">Monday</string>
+    <string name="first_week_sunday">Sunday</string>
+    <string name="dd_mm_yyyy">dd/MM/yyyy</string>
+    <string name="mm_dd_yyyy">MM/dd/yyyy</string>
+    <string name="yyyy_mm_dd">yyyy/MM/dd</string>
+    <string name="back">Back</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--  Dialog new folder  -->
+    <string name="create_new_folder">New Folder</string>
+    <string name="btn_create">Create</string>
+    <string name="folder_name_hint">Name</string>
+    <string name="folder_thumbnail">Folder Thumbnail</string>
+    <string name="notify_create_folder">Type folder name please!</string>
+    <string name="time_folder">20/11/2023</string>
+    <string name="update_folder_name">Update folder name</string>
+
+    <!--  New note  -->
+    <string name="title_new_note">New Note</string>
+    <string name="new_note">Name</string>
+    <string name="please_grant_permission">Please grant permission in setting!</string>
+    <string name="type_name_please">Type name please!</string>
+    <string name="save_note_to_view">Please save note!</string>
+    <string name="save_image_to_view">Save image to view!</string>
+    <string name="update_note">Notes</string>
+    <string name="created">Created!</string>
+    <string name="saved">Saved!</string>
+
+    <!--  View note  -->
+    <string name="delete_this_folder">Delete this folder?</string>
+    <string name="btn_update_note">Update note</string>
+
+    <!--  dialog  -->
+    <string name="delete_all_event">Delete all event?</string>
+    <string name="delete_all_notes">Delete all notes?</string>
+
+    <!--  Coin  -->
+    <string name="text_coin">99</string>
+    <string name="out_of_coin">out of coin!</string>
+    <string name="watch_an_ad">Watch an Ads</string>
+    <string name="ad_not_ready">Ad is loading, please try again!</string>
+    <string name="my_coin">My Coin</string>
+    <string name="delete_all_imageNote">Clear All Image?</string>
+
+    <!--  permission  -->
+    <string name="permission_to_read_images">Request permission to read images:</string>
+    <string name="permission_to_read_images_content">This function requires permission to view IMAGES to select IMAGES!</string>
+    <string name="show_request_permission">Show</string>
+    <string name="cancel_request_permission">Cancel</string>
+    <string name="setting_request_permission">Setting</string>
+
+    <!--  Content  -->
+    <string name="privacy_policy_content">
+    <![CDATA[
+        <strong>Privacy Policy CEO Calendar</strong>
+        <p>CEO Calendar built the  app as (free/ ad-supported/ buy in the application) app. This SERVICE is provided by CEO Calendar and is intended for use as is.</p>
+        <p>This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.</p>
+        <p>If you choose to use our Service, then you agree to the collection and use of information in relation to this policy.</p>
+        <p><strong>Information Collection and Use</strong></p>
+        <p>We do not collect personal data (full name, address, contact information, email, phone number, image, ... Personal documents any other).</p>
+        <p>The information that we request will be retained on your device and is not collected by us in any way.</p>
+        <p>Applications can collect data used such as: Login time, usage status ...</p>
+
+        <div>
+        <p>The app does use third-party services that may collect information used to identify you.</p>
+        <p>Link to the privacy policy of third-party service providers used by the app </p>
+        <ul>
+        <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
+        <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank" rel="noopener noreferrer">AdMob</a></li>
+        <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li>
+        <li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
+        <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+        </ul></div>
+        <p><strong>Log Data</strong></p>
+        <p> We want to inform you that whenever you use our Service, in a case of an error in the app We collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.</p>
+        <p><strong>Service Providers</strong></p>
+        <p>We may employ third-party companies and individuals due to the following reasons:</p>
+        <ul>
+        <li>To facilitate our Service;</li>
+        <li>To provide the Service on our behalf;</li>
+        <li>To perform Service-related services; </li>
+        <li>To assist us in analyzing how our Service is used.</li>
+        </ul>
+
+        <p>We want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.</p>
+        <p><strong>Security</strong></p>
+        <p>We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and We cannot guarantee its absolute security.</p>
+        <p><strong>Links to Other Sites</strong></p>
+        <p>This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, We strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</p>
+        <p><strong>Children’s Privacy</strong></p>
+        <div>
+        <p>These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13 years of age. In the case We discover that a child under 13 has provided us with personal information, We immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that We will be able to do the necessary actions.</p>
+        </div>
+
+        <!---->
+        <p><strong>Changes to This Privacy Policy</strong></p>
+        <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+        <p>This policy is effective as of 2024-01-17</p>
+        <p><strong>Contact Us</strong></p>
+        <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact me at:</p>
+        <p>minhviet.dragon@gmail.com</p>
+        <p>This privacy policy page was created at <a href="https://privacypolicytemplate.net" target="_blank" rel="noopener noreferrer">privacypolicytemplate.net </a>and modified/generated by <a href="https://app-privacy-policy-generator.nisrulz.com/" target="_blank" rel="noopener noreferrer">App Privacy Policy Generator</a></p>
+        <p>Link CEO Calendar Privacy Policy: <a href="https://minhviet123tv.github.io/CEOCalendar/" target="_blank" rel="noopener noreferrer">CEO Calendar Privacy Policy</a></p>
+    ]]>
+    </string>
+
+    <string name="how_humankind_came_to_be">
+    <![CDATA[
+        <p><i>(January 20, 2023 by teacher Hongzhi Li - <a href="https://en.minghui.org/html/articles/2023/1/21/206699.html" target="_blank" rel="noopener noreferrer">link</a>)</i></p>
+        <p>I would like to first pass along my greetings to everyone on the advent of the Chinese New Year.</p>
+        <p>New Year’s would normally be a time for sharing a few pleasant remarks about the occasion. But I am seeing imminent danger approaching humanity, and have been called upon by divine beings to pass along, for this reason, several things to everyone in this world. Each of what I am about to disclose is a higher, closely guarded secret, and these are being shared to provide a true picture of affairs, and to give people another chance at salvation.</p>
+        <p>First is the question of how humankind came to be. From the dawn of its creation to its final days, the universe has gone through an exceptionally long passage of time consisting of four stages: Formation, Stasis, Degeneration, and Destruction. When the final point of the Destruction stage is reached, the complete obliteration of everything in the greater cosmic body—which includes the universe in which we exist—takes place instantaneously, and all living things perish!</p>
+        <p>When a person dies it is just a matter of his physical body declining and breaking down, while his true soul (which is who he really is, and which does not die with the passing of his physical body) will continue on in a next life, being reborn. So just as the universe goes through Formation, Stasis, Degeneration, and Destruction, so too do human beings go through birth, aging, illness, and death. These are laws of the universe, to which even higher beings are subject, only the time span is longer, with the process being more drawn out in proportion to how great the beings are. Life and death are not painful for them, and they remain cognizant throughout these processes—to them it is as if but changing outfits. Put differently, normally lives do not really die. But when the universe and the cosmos disintegrate at the final stage of the Formation, Stasis, Degeneration, Destruction process, however, lives will not be reborn, and there will be no more existence of life or matter, with all turning to dust and there being only emptiness. Currently the human world is experiencing the last period in the Destruction phase of the Formation, Stasis, Degeneration, Destruction progression. Everything has changed for the worse in these end times, as fated, and destruction is thus imminent. And it is for this reason that the world is so troubled. Good thoughts are rare, people’s minds have become twisted, debauchery and drug abuse are rampant, and people subscribe to atheism. These are inevitable in the last stage of the cosmos, and bespeak of the time at which we have arrived!</p>
+        <p>The Creator cherishes all of the heavenly beings that exist as well as all of the lives that are good and kind, and all of the glorious creations in the cosmos. So at the beginning of the Degeneration stage He led a number of divine beings to the outermost plane of the cosmic body (known generally as “that which is outside the Divine Realm”), a place where there are no divine beings, and created Earth. But Earth hadn’t the capacity to exist independently; it needed for there to be a corresponding cosmic structure with which it could form a circulatory system involving life and matter. For this reason, the Creator made a larger expanse outside of the earth, which higher beings refer to as the “Three Realms.” Before the final time of salvation would arrive, no higher beings, however great, were to be allowed to enter or exit this expanse without the Creator’s permission. The expanse of the Three Realms comprises three major realms: the Realm of Desire (<em>yu</em>), which is made up of the lives on this earth, including humankind; a second realm, the Realm of Likings (<em>se</em>), which is above it; and a third realm, further above, known as the Realm Without Likings (<em>wu se</em>). Each successive realm is higher and more glorious than that below it, though none can compare to the Divine Realm or the many heavenly kingdoms still higher. The “heaven” that people normally refer to is in fact within either the Realm of Likings or the Realm Without Likings, within the Three Realms. Each of the Three Realms has ten planes within it, making for a total of thirty-three planes in all, if you include the Three Realms themselves. Human beings reside in the Realm of Desire, and this is the lowest of all planes, with the worst environment. Life is painful and short here, but more dreadful still is the fact that in the human world few of the things people take to be truths are actually valid. What human beings hold to be true is on the whole considered the opposite in the larger universe (but an exception is the higher truths that holy beings have taught to man). For example, the divine does not consider it right for whomever is victorious in battle to become ruler, for territory to be seized by military force, or for the powerful to be seen as heroes—since killing and forcefully taking from others are involved. That is not the way of the universe, nor how higher beings go about things. Yet in the human world these are inevitable, and accepted. Those are the ways of the human world, but they are contrary to the ways of the universe. Thus, if a person wishes to return to heaven he must follow true, higher laws and work on himself. Some people are content when they are doing a bit better in life than others. But such people are only comparing themselves with other human beings within this human realm, when everyone here is in fact living in what is considered to be the trash bin of the universe. The Three Realms were established at the outermost perimeter of the cosmic body, and everything here is made up of the lowest, crudest, and filthiest of particles—molecules, atoms, and the like. In the eyes of higher beings this is where the trash of the universe is cast away. They thus regard this plane of molecules as dust or “clay,” and see it as the lowliest of places. This is the origin of the belief held in some religions that man was made by the divine out of clay. Man was indeed formed out of matter at the molecular plane.</p>
+        <p>When divine beings made man, they did so at the Creator’s behest, and He instructed them to each make human beings in their own unique image. For this reason there are the White, Asian, Black, and other races. While their outward appearances differ, the souls within them were given by the Creator. And that is why they have common values. The purpose that the Creator had in directing divine beings to make man, was to make use of man in the final times when He would offer all lives of the greater universe—including heavenly beings—salvation.</p>
+        <p>But why would the Creator have divine beings create humans in such a lowly and inferior place? It was because, with this being the universe’s lowest plane, it is the most grueling of places, and only when things are trying and painful may a person elevate himself through spiritual practice and shed his or her karma. When a person, amidst painful experiences, still manages to keep kind thoughts, have gratitude, and be a good person, he or she is growing through it. Salvation is a process of ascending from low to high, and so one has to start from the bottom. Life is trying for anyone living here. There are the tensions between people when they are trying to make out better, there is the terrible state of the natural environment, and there is the fact that just getting by in life takes a great deal of thought and effort, to name just a few examples. All of these circumstances provide people with opportunities to develop themselves and lessen their karma. It is certain that going through hardships can help people to atone for their sins and karma. And anyone who manages to stay good-natured amidst painful situations and interpersonal troubles is going to build up merit and virtue and, as a result, will achieve the elevation of his or her soul.</p>
+        <p>With the arrival of modern times, the Creator had intended to utilize mainly the human body to save the many lives of the universe. And so the souls originally in the majority of human bodies here were replaced by those of higher beings, who incarnated in them. With a human body they could reduce their karma and sins by enduring hardship. And in this place that is devoid of truth they could, by holding fast to the higher truths taught by God or holy beings, and persevering in goodness and kindness, achieve the elevation of their souls. The end times are now upon us, and the Heavenly Gate that leads out of the Three Realms has been opened. The Creator has been selecting for deliverance those who have done as I describe.</p>
+        <p>Everything in the universe had become impure during the Formation, Stasis, and Degeneration phases, and inferior to when creation was begun. And this is why things have been heading for Destruction. In other words, everything in the greater universe has gone bad, the lives of creation are no longer as good as they were in the very beginning, are no longer pure, and all of them have accrued karma and sins. And this accounts for Destruction coming about. This kind of sin is what has been referred to in religious contexts as original sin. So that the universe could be saved, the Creator directed a multitude of higher beings and divine sovereigns to descend to the earth and assume human form in this setting, where they would suffer, elevate, atone for their sins, and forge themselves anew—reascending to heaven as a result. (The Creator has been remaking the universe at the same time as saving humankind.) The new universe is perfectly pure and simply glorious. If, in a trying setting like this, a person can still keep his thoughts virtuous; if he can hold his ground against the onslaught of modern values and views, and stick to traditional ones; and if he still believes in the divine in the face of assaults from the atheist and evolutionary camps, then that person will fulfill his purpose: to gain salvation and return to heaven. All of the madness now unfolding in the world was planned as such, for the final phase, by divine beings. Their goal was to test the lives here and see whether they were worthy of salvation, and give them a chance to, in the process, work off their sins and karma while going through difficult things. And all of this was done so that people could be saved and gain deliverance back to heaven.</p>
+        <p>This is to say that the purpose of people’s lives on this earth isn’t to accomplish something in the world. All of the intense efforts and attempts people make in life, and their drive to get what they want, which can even involve resorting to unscrupulous means, only make people immoral in the end. The reason people came to this world and became human was to atone for their sins and karma, and to make significant spiritual progress. People came to this world to gain salvation. They came and assumed human form to await the Creator and His salvation back to their heavenly kingdom. And while they waited, they built up merit over their many past lives; and that was the purpose of people’s rebirths. The troubled nature of this world is meant to make something great of these lives. Of course, there are some people who, when seeking divine help in times of duress, haven’t been satisfied with the outcome, and started to loathe God—even turning against Him as a result. Some have even turned to the demonic, dark side, and committed still further sins and made yet more karma. Those whom this applies to had best quickly come around and beg God for forgiveness, if they are still to have a chance of reaching safety. Everything that happens in one’s life—whether it seems warranted or not—is, in reality, the karmic consequence of what one did in one’s past lives, for better or for worse. The amount of blessings and virtue that one built up in one’s past lives determines what fortune is in store in this lifetime, or perhaps the next. If one lives a blessed and virtuous life now, perhaps it will translate in one’s next lifetime into a high position and salary, or it might translate into different kinds of wealth and fortune. And this would also include whether one has a happy family, or even how one’s children turn out, and so on. This is the fundamental reason why some people are wealthy and others poor, why some hold positions of high rank while others are destitute and homeless. It’s nothing like the diabolical nonsense that sinister communism spouts about equality between rich and poor. The universe is fair. Those who do good are blessed for it, while those who do wrong will face payback—if not in this life, then in the next. For this is an immutable law of the universe! Heaven, Earth, the Divine, and the Creator alike are compassionate toward all lives. Heaven and Earth, just as with man and the divine, were made by the Creator, and it is never the case that He plays favorites with some lives and shortchanges others. The reason some people lead happy lives and others do not all comes down to rewards and retributions for past deeds.</p>
+        <p>When you see people winning or losing in life, it appears to come about in a normal way from things in this world. But it is ultimately the karmic consequences of those people’s past doings. Whether people have something or not, or are winning or losing in life, is going to play out in ways that accord with this world. So no matter whether you are rich or poor in life, you should be sure to do good, refrain from doing wrong, stay good and kind, be spiritual and devout, and be happy to help others. And by doing so you will build up blessings and virtue, and reap their rewards in the next life. In the past, the older generation in China would often talk about things like not lamenting your lot in life when things are hard, and about earning a better next life by gaining virtue through good deeds. And the point was that it’s useless praying to God for help if you didn’t do good things in your former life and earn blessings. The universe has its laws, and even higher beings must obey them. Even they will be punished if they do things they shouldn’t. So things are not as simple as people take them to be. Should people expect higher beings to give them whatever they pray for? The prerequisite is that one has to have built up the blessings and virtue for it over past lifetimes. And so the things that come to you are on account of the blessings and virtue you have! This is what the laws of the universe dictate. But speaking on a fundamental level, getting what you want is not the ultimate goal of accumulating blessings and virtue. The real purpose of building those up is to pave the way for you back to heaven. And that is what’s most crucial, not the brief round of happiness that they can bring you in this lifetime!</p>
+        <p><i>View more: <a href="https://falundafa.org/" target="_blank">falundafa.org</a></i></p>
+    ]]>
+    </string>
+
+    <string name="meditation_link">
+    <![CDATA[
+         <p><a href="https://en.falundafa.org/?v=bks04">English</a></p>
+         <p><a href="https://gb.falundafa.org/?v=bks04">中文简体</a></p>
+         <p><a href="https://af.falundafa.org/?v=bks04">Afrikaans</a></p>
+         <p><a href="https://ar.falundafa.org/?v=bks04">Arabic / العربية</a></p>
+         <p><a href="https://ba.falundafa.org/?v=bks04">Bangla / বাংলা</a></p>
+         <p><a href="https://bs.falundafa.org/?v=bks04">Bosanski</a></p>
+         <p><a href="https://by.falundafa.org/?v=bks04">Belarus</a></p>
+         <p><a href="https://bg.falundafa.org/?v=bks04">Български</a></p>
+         <p><a href="https://www.falundafa.org/eng/language/burmese.html?v=bks04">Burmese</a> </p>
+         <p><a href="https://cs.falundafa.org/?v=bks04">Česky</a></p>
+         <p><a href="https://da.falundafa.org/?v=bks04">Dansk</a></p>
+         <p><a href="https://de.falundafa.org/?v=bks04">Deutsch</a></p>
+         <p><a href="https://es.falundafa.org/?v=bks04">Español</a></p>
+         <p><a href="https://en.falundafa.org/language/estonian.html?v=bks04">Eesti</a></p>
+         <p><a href="https://el.falundafa.org/?v=bks04">Ελληνικά</a></p>
+         <p><a href="https://fa.falundafa.org/?v=bks04">Farsi / فارسی</a></p>
+         <p><a href="https://fr.falundafa.org/?v=bks04">Français</a></p>
+         <p><a href="https://he.falundafa.org/?v=bks04">עברית</a></p>
+         <p><a href="https://hi.falundafa.org/?v=bks04">Hindi / हिन्दी</a></p>
+         <p><a href="https://hr.falundafa.org/?v=bks04">Hrvatski</a></p>
+         <p><a href="https://id.falundafa.org/?v=bks04"> Bahasa Indonesia </a></p>
+         <p><a href="https://it.falundafa.org/?v=bks04">Italiano</a></p>
+         <p><a href="https://kn.falundafa.org/?v=bks04">Kannada / ಕನ್ನಡ</a></p>
+         <p><a href="https://lv.falundafa.org/?v=bks04">Latviski</a></p>
+         <p><a href="https://falundafa.org/eng/language/lithuanian.html?v=bks04">Lietuvių</a></p>
+         <p><a href="https://en.falundafa.org/language/laotian.html?v=bks04">Laotian / ລາວ</a></p>
+         <p><a href="https://hu.falundafa.org/?v=bks04">Magyar</a></p>
+         <p><a href="https://mk.falundafa.org/?v=bks04">Македонски</a></p>
+         <p><a href="https://mn.falundafa.org/?v=bks04">Монгол / ᠮᠣᠩᠭᠣᠯ</a></p>
+         <p><a href="https://nl.falundafa.org/?v=bks04">Nederlands</a></p>
+         <p><a href="https://ja.falundafa.org/?v=bks04">Japan / 日本語</a></p>
+         <p><a href="https://kh.falundafa.org/falun-dafa-books.html?v=bks04">Khmer / ខ្មែរ</a></p>
+         <p><a href="https://no.falundafa.org/?v=bks04">Norsk / Bokmål</a></p>
+         <p><a href="https://pl.falundafa.org/?v=bks04">Polski</a></p>
+         <p><a href="https://pt.falundafa.org/?v=bks04">Português</a></p>
+         <p><a href="https://ro.falundafa.org/?v=bks04">Română</a></p>
+         <p><a href="https://rus.falundafa.org/?v=bks04">Русский</a></p>
+         <p><a href="https://lk.falundafa.org/?v=bks04">Sinhala / සිංහල</a></p>
+         <p><a href="https://sk.falundafa.org/?v=bks04">Slovenčina</a></p>
+         <p><a href="https://sl.falundafa.org/?v=bks04">Slovenščina</a></p>
+         <p><a href="https://sr.falundafa.org/?v=bks04"> Srpski / Српски </a></p>
+         <p><a href="https://fi.falundafa.org/?v=bks04">Suomi</a></p>
+         <p><a href="https://sv.falundafa.org/?v=bks04">Svenska</a></p>
+         <p><a href="https://sq.falundafa.org/?v=bks04">Shqip / Albanian</a></p>
+         <p><a href="https://ko.falundafa.org/?v=bks04" value="ko" xml:lang="ko" lang="ko">Korean / 한국어</a></p>
+         <p><a href="https://th.falundafa.org/?v=bks04">Thai / ไทย</a></p>
+         <p><a href="https://www.falundafa.org/eng/language/tibetan.html?v=bks04">Tibetan / བོད་ཡིག </a></p>
+         <p><a href="https://tr.falundafa.org/?v=bks04">Türkçe</a></p>
+         <p><a href="https://uk.falundafa.org/?v=bks04">Ukrainian / Українська</a></p>
+         <p><a href="https://vi.falundafa.org/?v=bks04">Tiếng Việt</a></p>
+    ]]>
+    </string>
+
+    <string name="why_there_is_mankind_link">
+        <![CDATA[
+            <p><a href="https://en.minghui.org/html/articles/2023/1/21/206699.html">English</a></p>
+            <p><a href="https://www.minghui.org/mh/articles/2023/1/20/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E4%BA%BA%E7%B1%BB-455562.html">中文简体</a></p>
+            <p><a href="https://bs.minghui.org/articles/6858">Bosanski</a></p>
+            <p><a href="https://de.minghui.org/html/articles/2023/1/23/165840.html">Deutsch</a></p>
+            <p><a href="https://es.minghui.org/html/articles/2023/1/21/126075.html">Español</a></p>
+            <p><a href="https://fa.minghui.org/html/articles/2023/1/21/133405.html">فارسی</a></p>
+            <p><a href="https://fr.minghui.org/html/articles/2023/1/21/103887.html">Français</a></p>
+            <p><a href="https://he.minghui.org/html/articles/2023/1/23/41878.html">עברית</a></p>
+            <p><a href="https://hr.minghui.org/articles/6858">Hrvatski</a></p>
+            <p><a href="https://id.minghui.org/html/articles/2023/1/25/130727.html">Bahasa Indonesia</a></p>
+            <p><a href="https://it.minghui.org/html/articles/2023/1/25/21201.html">Italiano</a></p>
+            <p><a href="https://jp.minghui.org/2023/01/23/89043.html">日本語</a></p>
+            <p><a href="https://www.minghui.or.kr/archives/masters-recent-articles/118601">한국어</a></p>
+            <p><a href="https://pl.minghui.org/html/articles/2023/1/23/911.html">Polski</a></p>
+            <p><a href="https://pt.minghui.org/html/articles/2023/1/21/8438.html">Português</a></p>
+            <p><a href="https://ru.minghui.org/html/articles/2023/1/21/1172085.html">Русский</a></p>
+            <p><a href="https://sk.minghui.org/2023/01/21/preco-existuje-ludstvo">Slovenčina</a></p>
+            <p><a href="https://sr.minghui.org/articles/6858">Српски</a></p>
+            <p><a href="https://th.minghui.org/html/articles/2023/1/31/3010.html">ไทย</a></p>
+            <p><a href="https://tr.minghui.org/html/articles/2023/1/24/11239.html">Türkçe</a></p>
+            <p><a href="https://vn.minghui.org/jw/kinh_van_20230120.html">Tiếng Việt</a></p>
+            <p><a href="https://uk.minghui.org/html/articles/2023/1/20/1155.html">Українська</a></p>
+        ]]>
+    </string>
+
+</resources>

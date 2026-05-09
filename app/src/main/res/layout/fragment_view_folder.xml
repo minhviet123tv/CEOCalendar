@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".notes.FolderFragment"
+    android:background="@color/bg_primary_activity">
+
+    <RelativeLayout
+        android:id="@+id/layout_menu_control_view_folder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:background="@color/white"
+        android:elevation="3dp">
+
+        <ImageButton
+            android:id="@+id/ic_back_from_fragment_view_folder"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:paddingStart="@dimen/primary_padding_activity"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_arrow_back_96"
+            tools:ignore="ContentDescription,RtlSymmetry,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/txt_view_folder_fragment_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toStartOf="@+id/layout_btn_add_note"
+            android:layout_toEndOf="@+id/ic_back_from_fragment_view_folder"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/view_folder"
+            android:textAlignment="center"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/txt_view_folder_name"
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap" />
+
+        <RelativeLayout
+            android:id="@+id/layout_btn_add_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/btn_add_new_note"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="3dp"
+                android:layout_gravity="center"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/contentDescription"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_new_note"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck,ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/txt_coin_number_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_coin_number"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/text_coin"
+                android:textColor="@color/white"
+                android:textSize="@dimen/coin"
+                android:textStyle="bold"
+                android:layout_toEndOf="@+id/btn_add_new_note"
+                android:layout_marginStart="-13dp"
+                tools:ignore="TextSizeCheck"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_list_view_folder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/layout_menu_control_view_folder"/>
+
+</RelativeLayout>
